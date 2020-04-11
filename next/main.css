@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.hiii{
+  position: relative;
+}
+
+.hooo{
+  z-index: 1;
+  color:rgb(156, 4, 4);
+  font-weight: 300;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-top: 300px;
+  margin-left: 350px;
+  background-color: rgb(6, 10, 10);
+  text-align: center;
+  position: absolute;
+}
+
+#particle-canvas 
+{
+  opacity: 0.9;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+
+
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+
+
+
+header {  font-family: 'Lato', sans-serif !important;
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  background: #222;
+  position: fixed;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(204, 250, 1);
+  border-radius: 3px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  color: #FFF;
+  line-height: 36px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.button:hover {
+  color: #40A4e8;
+  border: 1px solid #4094e8;
+}
+
+p {
+  font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  float: left;
+  color: lightgreen;
+  margin-left: 20px;
+}
+
+
